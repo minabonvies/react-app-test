@@ -20,7 +20,6 @@ export default function Member() {
         },
       })
       .then((res) => {
-        console.log(res);
         setMemberStr(JSON.stringify(res));
       });
   }, [id]);
